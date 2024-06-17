@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WBSEDCL Electricity Bill Calculator</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="calculator">
+        <h2>WBSEDCL Electricity Bill Calculator</h2>
+        <text> Only applicable for Domestic Rural Consumer A(DM-R) </text>
+
+        <div class="form-group">
+            <label for="units">Enter Units Consumed:</label>
+            <input type="number" id="units" name="units" min="0" required>
+        </div>
+
+        <button onclick="calculateBill()">Calculate Bill</button>
+
+        <div id="result" class="result"></div>
+
+        <text> Made by Tapu </text>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
